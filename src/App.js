@@ -8,7 +8,7 @@ function App() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Welcome to My App
+            Dante's React App
           </h1>
           <p className="text-lg text-gray-600">
             This is a beautiful React application with Tailwind CSS
