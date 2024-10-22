@@ -6,7 +6,7 @@ const Hero = () => {
       {/* Background dots decoration */}
       <div className="absolute inset-0 grid grid-cols-12 gap-2 p-2 pointer-events-none opacity-20">
         {[...Array(144)].map((_, i) => (
-          <div key={i} className="w-2 h-2 rounded-full bg-gray-900 dark:bg-gray-100"></div>
+          <div key={i} className="w-2 h-2 rounded-full bg-gray-900 dark:bg-gray-100" />
         ))}
       </div>
       
@@ -62,7 +62,7 @@ const Hero = () => {
           viewBox="0 0 24 24"
           stroke="currentColor"
         >
-          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
       </div>
     </div>
